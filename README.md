@@ -3,7 +3,7 @@
 ![ant-ants](https://user-images.githubusercontent.com/72623771/233392412-8c062cdc-131e-453f-b8eb-6fccf5aac679.gif)
 
 **Número da Lista**: 2<br>
-**Conteúdo da Disciplina**: Grafos21<br>
+**Conteúdo da Disciplina**: Grafos 2<br>
 
 <img src="https://user-images.githubusercontent.com/72623771/233392133-e199598b-02d5-4f04-bf9e-98faadd0e9ef.png" min-width="150px" max-width="150px" width="350px" align="right" alt="ants">
 
