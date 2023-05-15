@@ -1,7 +1,5 @@
 package view;
 
-import controller.BFSController;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

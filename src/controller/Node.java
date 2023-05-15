@@ -1,4 +1,4 @@
-package model;
+package controller;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -10,6 +10,7 @@ public class Node {
     private String name;
     private Integer distance = Integer.MAX_VALUE; //simulate an infinite distance
     private List<Node> shortestPath = new LinkedList<>();
+
     Map<Node, Integer> adjacentNodes = new HashMap<>();
 
     public void addDestination(Node destination, int distance) {
