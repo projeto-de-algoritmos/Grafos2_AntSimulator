@@ -18,6 +18,8 @@ O presente projeto foi desenvolvido durante a disciplina de Projeto de Algoritmo
 
 Nesse sentido, decidimos desenvolver um sistema que simule o comportamento de formigas, tendo em vista sua capacidade de traçar o menor caminho entre a comida e sua atual posição, de modo a otimizar o transporte de alimento e, assim, perpetuar a espécie.
 
+Além disso, foram feitos 2 exercícios do beecrowd, como complemento da entrega de Grafos 2.
+
 ## Screenshots
 ## Menu Inicial
 <img src="https://user-images.githubusercontent.com/72623771/234426200-c69e90e8-0b45-48ac-826b-1f927d0bc4df.png"  min-width="350px" max-width="350px" width="350px">
@@ -49,7 +51,7 @@ git clone https://github.com/projeto-de-algoritmos/Grafos1_AntSimulator.git
 
 
 ## Vídeo 
-[Grafos 1](https://youtu.be/FWa6aVN7IWs)
+[Grafos 2](https://youtu.be/FWa6aVN7IWs)
 
 
 
