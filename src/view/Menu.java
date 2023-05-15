@@ -41,7 +41,6 @@ public class Menu implements ActionListener {
         playButton.addActionListener(menu);
         infoButton.addActionListener(menu);
         quitButton.addActionListener(menu);
-
     }
 
     @Override
