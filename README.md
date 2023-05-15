@@ -52,7 +52,7 @@ git clone https://github.com/projeto-de-algoritmos/Grafos1_AntSimulator.git
 # Beecrowd
 
 ## Exercício 1 - [Ir e Vir](https://www.beecrowd.com.br/judge/pt/problems/view/1128)
-[Código]([./Ir e Vir/Ir e Vir.c](https://github.com/projeto-de-algoritmos/Grafos2_AntSimulator/blob/1173ef45b36aefb85104c0df420505e2cf5de3e5/Ir%20e%20Vir/Ir%20e%20Vir.c))
+[Código](https://github.com/projeto-de-algoritmos/Grafos2_AntSimulator/blob/1173ef45b36aefb85104c0df420505e2cf5de3e5/Ir%20e%20Vir/Ir%20e%20Vir.c)
 
 ![image](https://github.com/projeto-de-algoritmos/Grafos2_AntSimulator/assets/72623771/405f0fc8-fda6-4f27-9248-8686cd2c73e7)
 
@@ -62,4 +62,4 @@ git clone https://github.com/projeto-de-algoritmos/Grafos1_AntSimulator.git
 ![image](https://github.com/projeto-de-algoritmos/Grafos2_AntSimulator/assets/72623771/d316402b-642a-4039-8a5c-852dcb104961)
 
 ## Vídeo 
-[Grafos 2](https://youtu.be/FWa6aVN7IWs)
+[Grafos 2](link do video aqui)
