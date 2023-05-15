@@ -21,6 +21,8 @@ public class Game implements ActionListener {
     private static final JTextField inputAntPosition = new JTextField(2);
     private static final JTextField inputFoodPosition = new JTextField(2);
     private static final Image icon = Toolkit.getDefaultToolkit().getImage("ant.png");
+    private static String way = "";
+    JLabel path = new JLabel(way);
 
     public Game() {
         JLabel answer = new JLabel("best way to food:");
@@ -48,8 +50,12 @@ public class Game implements ActionListener {
         gameFrame.add(inputFoodPosition);
         gameFrame.add(findButton);
         gameFrame.add(answer);
-        gameFrame.setIconImage(icon);
 
+
+        path.setBounds(35, 190, 200, 50);
+        gameFrame.add(path);
+
+        gameFrame.setIconImage(icon);
         gameFrame.setLayout(null);
         gameFrame.setSize(630, 310);
         gameFrame.setLocationRelativeTo(null); //display the frame to center position of a screen
@@ -89,11 +95,15 @@ public class Game implements ActionListener {
                 }
             }
 
+            ;
+
             for (Node node : nodeDestination.getShortestPath()) {
-                System.out.print(node.getName() + "-");
+                String s = node.getName() + " - ";
+                way = way + s;
             }
-            System.out.println(nodeDestination.getName());
-            System.out.println();
+            way = way + nodeDestination.getName();
+            path.setText(way);
+
         }
     }
 }
