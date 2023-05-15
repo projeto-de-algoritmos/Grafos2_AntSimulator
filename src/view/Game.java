@@ -73,6 +73,9 @@ public class Game implements ActionListener {
             new Menu();
             gameFrame.dispose();
         } else if (src == findButton) {
+            path.setText("");
+            way = "";
+
             Graph graph = generateGraph();
 
             String source = inputAntPosition.getText().toUpperCase();
@@ -84,7 +87,11 @@ public class Game implements ActionListener {
                 }
             }
 
-            graph = calculateShortestPathFromSource(graph, nodeSource);
+            if (nodeSource != null) {
+                graph = calculateShortestPathFromSource(graph, nodeSource);
+            } else {
+                JOptionPane.showMessageDialog(null, "Source not found");
+            }
 
             String destination = inputFoodPosition.getText().toUpperCase();
             Node nodeDestination = null;
@@ -95,15 +102,16 @@ public class Game implements ActionListener {
                 }
             }
 
-            ;
-
-            for (Node node : nodeDestination.getShortestPath()) {
-                String s = node.getName() + " - ";
-                way = way + s;
+            if (nodeDestination != null) {
+                for (Node node : nodeDestination.getShortestPath()) {
+                    String s = node.getName() + " - ";
+                    way = way + s;
+                }
+                way = way + nodeDestination.getName();
+                path.setText(way);
+            } else {
+                JOptionPane.showMessageDialog(null, "Destination not found");
             }
-            way = way + nodeDestination.getName();
-            path.setText(way);
-
         }
     }
 }
