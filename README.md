@@ -61,5 +61,8 @@ git clone https://github.com/projeto-de-algoritmos/Grafos1_AntSimulator.git
 
 ![image](https://github.com/projeto-de-algoritmos/Grafos2_AntSimulator/assets/72623771/d316402b-642a-4039-8a5c-852dcb104961)
 
-## Vídeo 
+## Vídeo de Apresentação
+O arquivo do vídeo (.mp4) se encontra na seguinte pasta -> [video](https://github.com/projeto-de-algoritmos/Grafos2_AntSimulator-Beecrowd/tree/master/video)
+
+Além disso, caso o estudante queira visualizar o vídeo diretamente pelo Youtube, segue o link:
 [Grafos 2](https://youtu.be/pih2p1FmVX4)
